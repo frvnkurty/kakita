@@ -1,0 +1,7 @@
+[03-May-2022 16:18:19 America/Santiago] PHP Parse error:  syntax error, unexpected '$notificacion' (T_VARIABLE) in /home1/plasmart/public_html/demo/juego/crear-usuario.php on line 73
+[03-May-2022 16:37:56 America/Santiago] PHP Parse error:  syntax error, unexpected ';' in /home1/plasmart/public_html/demo/juego/reset-mapa.php on line 55
+[03-May-2022 16:52:31 America/Santiago] PHP Parse error:  syntax error, unexpected '=' in /home1/plasmart/public_html/demo/juego/reset-mapa.php on line 38
+[03-May-2022 16:53:17 America/Santiago] PHP Parse error:  syntax error, unexpected '=' in /home1/plasmart/public_html/demo/juego/reset-mapa.php on line 38
+[03-May-2022 17:14:18 America/Santiago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/plasmart/public_html/demo/juego/reset-mapa.php on line 49
+[03-May-2022 17:50:35 America/Santiago] PHP Fatal error:  Cannot redeclare redondear() (previously declared in /home1/plasmart/public_html/demo/juego/reset-mapa-maya.php:31) in /home1/plasmart/public_html/demo/juego/reset-mapa-maya.php on line 78
+[03-May-2022 17:50:37 America/Santiago] PHP Fatal error:  Cannot redeclare redondear() (previously declared in /home1/plasmart/public_html/demo/juego/reset-mapa-maya.php:31) in /home1/plasmart/public_html/demo/juego/reset-mapa-maya.php on line 78

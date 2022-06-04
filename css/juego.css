@@ -1,0 +1,618 @@
+ 
+/*INICIO*/
+ html{
+     background-color: #000000;
+     font-family:sans-serif;
+}
+
+.alerta {
+    vertical-align:middle;
+    line-height: 40px;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    padding: 10% 1%;top: calc(50% - 300px);
+    left: calc(50% - 140px);
+    text-align: center;
+    background-color: #ff0000bf;
+    z-index: 99999999999999999;
+    color: white;
+    
+border-radius: 50px;}
+
+
+.instrucciones{color: white;}
+.usuarios-otros { background-color:#ff00003d!important;}
+
+/*Ropas*/
+
+.usuario-1 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/1.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-2 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/2.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-3 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/3.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-4 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/4.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-5 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/5.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-6 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/6.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-7 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/7.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-8 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/8.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-9 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/9.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+.usuario-0 {
+background: url(https://demo.plasmart.cl/juego/img/personajes/0.png) #ff0000ad!important;
+background-size: 100% 100%!important;
+background-repeat: no-repeat!important;
+}
+
+
+
+span.expresion {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%!important;
+    background-repeat: no-repeat!important;
+}
+
+
+
+
+.color-0{ background-color:#9a5520!important; }
+.color-1{ background-color:yellow!important; }
+.color-2{ background-color:green!important; }
+.color-3{ background-color:cyan!important; }
+.color-4{ background-color:blue!important; }
+.color-5{ background-color:red!important; }
+.color-6{ background-color:pink!important; }
+.color-7{ background-color:purple!important; }
+.color-8{ background-color:orange!important; }
+.color-9{ background-color:gray!important; }
+
+
+span.expresion.expresion-0 {
+    background: url(/juego/img/personajes/expresiones/0.gif);
+}
+span.expresion.expresion-1 {
+    background: url(/juego/img/personajes/expresiones/1.gif);
+}
+span.expresion.expresion-2 {
+    background: url(/juego/img/personajes/expresiones/2.gif);
+}
+span.expresion.expresion-3 {
+    background: url(/juego/img/personajes/expresiones/3.gif);
+}
+span.expresion.expresion-4 {
+    background: url(/juego/img/personajes/expresiones/4.gif);
+}
+span.expresion.expresion-5 {
+    background: url(/juego/img/personajes/expresiones/5.gif);
+}
+span.expresion.expresion-6 {
+    background: url(/juego/img/personajes/expresiones/6.gif);
+}
+span.expresion.expresion-7 {
+    background: url(/juego/img/personajes/expresiones/7.gif);
+}
+span.expresion.expresion-8 {
+    background: url(/juego/img/personajes/expresiones/8.gif);
+}
+.explosion {
+    transform: scale(3)!important;
+    background-color: yellow;
+    opacity: 0!important;
+    transition:0.3s!important;
+}
+.notita {
+    opacity: 1;
+}
+
+
+
+ .inicio {
+     text-align: center;
+     max-width: 350px;
+     margin: 0 auto;
+     padding: 10px;
+     border-radius: 6px;
+}
+ .inicio .boton{
+     text-align: center;
+     font-size: 30px;
+     width: 100%;
+}
+ form#informacion-personaje {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+ form#informacion-personaje h1 {
+}
+ .mostrar-personaje {
+    display: block;
+    float: left;
+    top: 0px;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin-left: 0px;
+    text-align: center;
+    left: 28%;
+}
+ .mostrar-personaje img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+/*FIN INICIO*/
+ span.actualizar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 10px;
+    z-index: 10;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+ span.actualizar a:hover {
+    background-color: yellow!important;
+}
+ span.actualizar a:active {
+    background-color: cyan!important;
+}
+ span.actualizar a {
+     display: inline-block;
+    width: 15px;
+     height: 16px;
+     z-index: 9;
+     margin: 7px;
+     background-color: #4b2626!important;
+     border-bottom: 4px solid #371d0e;
+     text-align: center;
+     border-radius: 50px;
+     vertical-align: middle;
+     line-height: 90px;
+     color: black;
+     padding: 10px;
+     background-position: center!important;
+     background-repeat: no-repeat!important;
+     background-size: 70% 70%!important;
+}
+
+
+.mostrar-vidas span{
+      display: inline-block;
+     height: 16px;
+     z-index: 9;
+     margin: 5px 7px;
+     background-color: #2a8607;
+     border-bottom: 4px solid #371d0e;
+     text-align: center;
+     border-radius: 50px;
+     vertical-align: middle;
+     line-height: 90px;
+     color: black;
+     padding: 10px;
+     background-position: center!important;
+     background-repeat: no-repeat!important;
+     background-size: 70% 70%!important;
+     font-size:30px;
+     font-weight:bold;
+     color:white;
+     text-align:center;
+     line-height: 20px;
+     text-shadow: 2px 2px 2px black;
+}
+.mostrar-vidas span.enemigos{
+    font-size:15px!important;
+    margin:0px 7px!important;
+}
+
+ .inicio select.personaje {
+     font-size: 40px;
+     display: block;
+     margin: 10px auto;
+     width: 100%;
+}
+ .inicio input {
+     font-size: 40px;
+     display: block;
+     margin: 10px auto;
+    width: 100%;
+}
+/* width */
+ #sala#sala::-webkit-scrollbar {
+     width: 0px;
+}
+/* Track */
+ #sala::-webkit-scrollbar-track {
+     background: black;
+}
+/* Handle */
+ #sala::-webkit-scrollbar-thumb {
+     background: black;
+}
+/* Handle on hover */
+ #sala::-webkit-scrollbar-thumb:hover {
+     background: black;
+}
+ .opciones {
+     z-index: 2;
+     display: inline-table;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 80%;
+     width: 98%;
+     background-color: #232323;
+     padding: 1%;
+     
+     text-align: left;
+     padding-bottom: 3%;
+     height: 15%!important;
+}
+ .boton {
+     min-height: 10px;
+     background-color: red;
+     color: white;
+     border-radius: 10px;
+     display: inline-block;
+     width: 47%;
+     border: none!important;
+    margin: 0;
+     border-radius: 8px;
+     padding: 24px 0%;
+    text-align: center;
+     font-size: 18px;
+     display: inline-block;
+     text-decoration: none;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     cursor:pointer;
+}
+ .boton:hover {
+     background-color: #ff5400;
+}
+ .boton-control {
+     background-color: #060606!important;
+     display: inline-block;
+     border-radius: 4px;
+     font-weight: bold;
+     text-transform: uppercase;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     z-index: 9;
+     position: fixed;
+     text-align: center;
+     vertical-align: middle;
+     outline: 3px solid #2f2626;
+     display: flex;
+     align-items: center;
+     background-position: center!important;
+     background-repeat: no-repeat!important;
+     background-size: auto 60%!important;
+}
+ .boton-control:hover {
+    background-color: red!important;
+}
+ .boton-control span {
+     margin: 0 auto;
+     font-size: 50px;
+     color: white;
+     text-decoration: none;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     cursor: pointer;
+}
+ .boton-control:hover {
+     background-color: #8b000087;
+}
+ div#izquierda {
+     top: 65%;
+     left: 0;
+     min-width: 100px;
+     height: 15%;
+     width: 25%;
+     margin: 0;
+}
+ div#derecha {
+     top: 65%;
+     left: 75%;
+     min-width: 100px;
+     height: 15%;
+     width: 25%;
+     margin: 0;
+}
+ div#arriba {
+     top: 65%;
+     left: 25%;
+     min-width: 100px;
+     height: 15%;
+     width: 25%;
+     margin: 0;
+}
+ div#abajo {
+     top: 65%;
+     left: 50%;
+     min-width: 100px;
+     height: 15%;
+     width: 25%;
+     margin: 0;
+}
+ form {
+     width: 30%;
+     display: inline-block;
+     margin: 1%!important;
+     padding: 0!important;
+     display: inline-block;
+}
+ select.input-objeto-nota {
+     min-height:10px;
+     display: inline-block;
+     width: 47%;
+     font-size: 20px;
+     padding: 10px 0;
+    margin: 0;
+}
+ span.boton.boton-dejar-objeto {
+     width: 90%;
+     height: 30px;
+     background-color: red!important;
+     float: left;
+     padding: 20px 5%;
+     display: block;
+     background-size: contain!important;
+     background-position: center!important;
+     background-repeat: no-repeat!important;
+     border-bottom: 4px solid #420000!important;
+}
+ #dejar-objeto {
+     display: inline-block;
+     width: 9%!important;
+     height: 30px!important;
+     float: left;
+}
+ input {
+     min-height:10px;
+     display: inline-block;
+     width: 49%;
+     font-size: 20px;
+     padding: 20px 0;
+    margin: 0;
+}
+ #usuario {
+     position: absolute;
+     background-color: #ffd3004a!important;
+     z-index: 1;
+     padding: 0;
+     border-radius: 0 0 10px 10px;
+     width: 50px!important;
+     height: 50px!important;
+     transition: 0.1s;
+     background-size: 100% 100%!important;
+}
+ span.puntero {
+     position: absolute;
+     width: 54px;
+    height: 54px;
+    top: -101px;
+     left: -1px;
+     font-size: 50px;
+     color: #0000008c;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    /* background-color: green!important;
+     */
+    background: url(/juego/img/mira.png);
+    background-position: center!important;
+    background-size: 100% 100%;
+}
+ small.nombre-usuario {
+     margin-top: 70px;
+     display: inline-block;
+     background-color: white;
+     padding: 5px;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 16px;
+     border-radius: 9px;
+}
+ .usuarios-otros {
+     position: absolute;
+     background-color: red;
+     z-index: 1;
+     width: 50px;
+     height: 50px;
+}
+ .usuario .vida-usuario {
+     position: absolute;
+     left: 0px;
+     top: -17px;
+     background-color: green;
+     padding: 3px 11px;
+     border-radius: 4px 4px 0 0 ;
+     color: white;
+     width: 28px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 10px;
+}
+ .sala {
+     position: absolute;
+     width: 100%;
+     height: 68%;
+     display: inline-block;
+     background-color: #1d1c1c;
+     left: 0%;
+     top: 0%;
+     overflow: scroll;
+}
+ .piso {
+     background: url(/juego/img/salas/0.png);
+     background-size: 150px 150px!important;
+    top: 0;
+     left: 0;
+     width: 5000px;
+     height: 5000px;
+     display: inline-block;
+     background-color: #603218;
+     z-index: 43;
+}
+ .objetos {
+     display: block;
+     width: 3000px;
+     height: 3000px;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+ span.paralelo {
+     position: absolute;
+     left: 0px;
+     top: 2500px;
+     width: 5000px;
+     height: 4px;
+     background-color: black;
+     display: inline-block;
+}
+ span.meridiano {
+     position: absolute;
+     left: 2500px;
+     top: 0;
+     width: 4px;
+     height: 5000px;
+     background-color: black;
+     display: inline-block;
+}
+ .notita{
+     position: absolute;
+     background-color: white;
+     padding: 10px;
+     border-radius: 6px;
+     box-shadow: 2px 2px 2px black;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+ .notita:hover {
+     background-color: gray;
+}
+ .bomba {
+     height: 50px!important;
+     width: 50px!important;
+     padding:0!important;
+     background-color: #432915!important;
+     background-size: contain!important;
+     background-position: center!important;
+     background-repeat: no-repeat!important;
+     border-radius: 10px;
+}
+/*MAPITA*/
+ span.mapa {
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 50px;
+     height: 50px;
+     background-color: #6a3a1c;
+     border: 5px solid black;
+     margin: 1%;
+     border-radius: 10px;
+     z-index: 9;
+}
+ .mapa span.paralelo {
+     top: 24px;
+     width: 50px;
+}
+ .mapa span.meridiano {
+     left: 24px;
+     height: 50px;
+}
+ span.usuario-posicion {
+     display: block;
+     width: 6px;
+     height: 6px;
+     background-color: #ffff00;
+     display: block;
+     left: 46px;
+     top: 46px;
+     position: absolute;
+     z-index: 9;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
+}
+ span.usuario-posicion-otros {
+     display: block;
+     width: 6px;
+     height: 6px;
+     background-color: red;
+     display: block;
+     left: 46px;
+     top: 46px;
+     position: absolute;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
+     z-index:9;
+}
+ span.notitas-posicion {
+     display: block;
+     width: 1px;
+     height: 1px;
+     background-color: white;
+     display: block;
+     left: 46px;
+     top: 46px;
+     position: absolute;
+}
+ span.boton-dejar-notita:active {
+     background-color: green;
+}
+ 

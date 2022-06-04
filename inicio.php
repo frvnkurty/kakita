@@ -11,7 +11,7 @@
 
 <audio id="audio" controls autoplay style="visibility: hidden;"><source src="/juego/audio/musica.mp3" type="audio/mpeg"></audio>
 
-
+123456789
 <style>
 html{color: white;}
 </style>
@@ -38,7 +38,7 @@ html{color: white;}
         -Si mueres debes pagar con penitencia
         </small>
     </div>
-
+    <!--/*ksjdjkds*/ */-->
 
 
 <script>

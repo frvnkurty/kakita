@@ -13,7 +13,7 @@ $query = mysql_query( $sql, $link )or die (mysql_error());
 
 echo $sql;
 
-echo 'git es lo  mejor';
+echo 'choco';
 
 if($_COOKIE["sala"]){
     $sala = $_COOKIE["sala"];

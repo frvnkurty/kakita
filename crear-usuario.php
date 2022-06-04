@@ -5,7 +5,7 @@ if(!$_COOKIE["usuario"]){
 }
 setcookie("sala", 0);
 
-
+/*78964123* comentario desde localhost*/
 include $_SERVER['DOCUMENT_ROOT']."/juego/conexion.php";
 
 
